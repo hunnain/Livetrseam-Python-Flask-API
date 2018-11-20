@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = b'dE\xad2g\x0c\x8d\xb9\x1cq\x86\x04:\xa8>\xc7\xc5\xc2Dr\xe7f\xf9\xeb'
 # Replace with your OpenTok API key:
-api_key = ""
+api_key = " "
 # Replace with your OpenTok API secret:
-api_secret = ""
+api_secret = " "
 # Replace with the representative URL of your session:
-session_address = ''
+session_address = ' '
 
 
 @app.route('/publisher', methods=['GET'])
